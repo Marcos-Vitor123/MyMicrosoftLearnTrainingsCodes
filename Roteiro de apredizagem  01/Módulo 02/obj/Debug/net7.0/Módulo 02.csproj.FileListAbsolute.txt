@@ -1,0 +1,14 @@
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\bin\Debug\net7.0\Módulo 02.exe
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\bin\Debug\net7.0\Módulo 02.deps.json
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\bin\Debug\net7.0\Módulo 02.runtimeconfig.json
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\bin\Debug\net7.0\Módulo 02.dll
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\bin\Debug\net7.0\Módulo 02.pdb
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\Módulo 02.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\Módulo 02.AssemblyInfoInputs.cache
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\Módulo 02.AssemblyInfo.cs
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\Módulo 02.csproj.CoreCompileInputs.cache
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\Módulo 02.dll
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\refint\Módulo 02.dll
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\Módulo 02.pdb
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\Módulo 02.genruntimeconfig.cache
+C:\GitHub\my-microsoft-learn-courses-codes\Roteiro de apredizagem  01\Módulo 02\obj\Debug\net7.0\ref\Módulo 02.dll
