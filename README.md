@@ -19,3 +19,4 @@ At the moment, what catches my attention the most is the development of desktop 
     - ### Module 03 - [Perform basic string formatting in C#](./Learning-path-01/Module-03/)
     - ### Module 04 - [Perform basic operations on numbers in C#](./Learning-path-01/Module-04/)
     - ### Module 05 - [Guided project – Calculate and print student grades](./Learning-path-01/Module-05/)
+    - ### Module 06 - [Guided Project – Calculate Final GPA](./Learning-path-01/Module-06/)

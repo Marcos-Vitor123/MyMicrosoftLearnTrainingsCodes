@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\Módulo 02.csproj",
-      "projectName": "Módulo 02",
-      "projectPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\Módulo 02.csproj",
+      "projectUniqueName": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-05\\Module-05.csproj",
+      "projectName": "Module-05",
+      "projectPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-05\\Module-05.csproj",
       "packagesPath": "C:\\Users\\Marcos Vitor\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\obj\\",
+      "outputPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-05\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marcos Vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\my-microsoft-learn-courses-codes\\Roteiro de apredizagem  01\\Módulo 02\\Módulo 02.csproj": {}
+    "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\Módulo 02.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\my-microsoft-learn-courses-codes\\Roteiro de apredizagem  01\\Módulo 02\\Módulo 02.csproj": {
+    "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\Módulo 02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Roteiro de apredizagem  01\\Módulo 02\\Módulo 02.csproj",
+        "projectUniqueName": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\Módulo 02.csproj",
         "projectName": "Módulo 02",
-        "projectPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Roteiro de apredizagem  01\\Módulo 02\\Módulo 02.csproj",
+        "projectPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\Módulo 02.csproj",
         "packagesPath": "C:\\Users\\Marcos Vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Roteiro de apredizagem  01\\Módulo 02\\obj\\",
+        "outputPath": "C:\\GitHub\\my-microsoft-learn-courses-codes\\Learning-path-01\\Module-02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcos Vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
