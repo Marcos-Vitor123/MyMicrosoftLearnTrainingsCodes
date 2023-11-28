@@ -13,9 +13,9 @@ At the moment, what catches my attention the most is the development of desktop 
 
 ## Challenges
 
-- ### Learning paths 01 - [Write your first code using C# (Introduction to C#, Part 1)]()
-    - ### Module 01 - [Write your first C# code]()
-    - ### Module 02 - [Store and retrieve data using literal values and variables in C#]()
-    - ### Module 03 - [Perform basic string formatting in C#]()
-    - ### Module 04 - [Perform basic operations on numbers in C#]()
-    - ### Module 05 - [Guided project – Calculate and print student grades]()
+- ### Learning paths 01 - [Write your first code using C# (Introduction to C#, Part 1)](./Learning-path-01/)
+    - ### Module 01 - [Write your first C# code](./Learning-path-01/Module-01/)
+    - ### Module 02 - [Store and retrieve data using literal values and variables in C#](./Learning-path-01/Module-02/)
+    - ### Module 03 - [Perform basic string formatting in C#](./Learning-path-01/Module-03/)
+    - ### Module 04 - [Perform basic operations on numbers in C#](./Learning-path-01/Module-04/)
+    - ### Module 05 - [Guided project – Calculate and print student grades](./Learning-path-01/Module-05/)
