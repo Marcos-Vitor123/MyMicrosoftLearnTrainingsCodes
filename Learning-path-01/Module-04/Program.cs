@@ -1,7 +1,11 @@
-﻿internal class Program
+﻿// Desafio: Executar operações básicas em números em C#
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        int fahrenheit = 94;
+        decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+        Console.WriteLine("The temperature is " + celsius + " Celsius.");
     }
 }
