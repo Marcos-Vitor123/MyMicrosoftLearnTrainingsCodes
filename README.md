@@ -11,7 +11,15 @@ This repository is exclusive to the training **learning paths** <a href="https:/
 It is with great pleasure that I follow these itineraries, in order to acquire the necessary knowledge to develop applications with **C#** and **.NET**.
 At the moment, what catches my attention the most is the development of desktop applications. From user interaction with the graphical interface to the methods used in C# to solve problems. I think that's incredible.
 
-## Challenges
+## Organization
+
+### The files will be separated into folders for each module in the following order:
+
+- Module challenge
+- Practices during units
+- Related mini project
+
+## Challenges and practices
 
 - ### Learning paths 01 - [Write your first code using C# (Introduction to C#, Part 1)](./Learning-path-01/)
     - #### Module 01 - [Write your first C# code](./Learning-path-01/Module-01/)
