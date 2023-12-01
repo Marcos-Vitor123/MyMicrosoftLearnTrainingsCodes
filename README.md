@@ -1,4 +1,4 @@
-# My Microsoft Learn courses
+# My Microsoft Learn trainings
 
 <img alt="logo C# e .NET" src="img\microsoft_learn.png"/>
 
