@@ -17,15 +17,15 @@ internal class Program
             ana3 = 80, 
             ana4 = 95;
 
-        int joao1 = 95, 
-            joao2 = 85, 
-            joao3 = 100, 
-            joao4 = 100;
+        int joao1 = 50, 
+            joao2 = 65, 
+            joao3 = 60, 
+            joao4 = 70;
 
-        int pedro1 = 100, 
-            pedro2 = 95, 
-            pedro3 = 80, 
-            pedro4 = 70;
+        int pedro1 = 50, 
+            pedro2 = 40, 
+            pedro3 = 20, 
+            pedro4 = 30;
 
         // Soma de todas as notas de cada aluno
 
@@ -41,12 +41,107 @@ internal class Program
                 mediaNotasJoao = (decimal)joao / mediaNotas,
                 mediaNotasPedro = (decimal)pedro / mediaNotas;
 
+        // Inicializando as variáveis letras das notas
+
+        char notaLetraMarcos,
+             notaLetraAna,
+             notaLetraJoao,
+             notaLetraPedro;
+
+        // Decidindo qual a letra referente a nota obtida de Marcos
+
+        if(mediaNotasMarcos >= 90 && mediaNotasMarcos <= 100)
+        {
+            notaLetraMarcos = 'A';
+        } else if (mediaNotasMarcos >= 80 && (float)mediaNotasMarcos <= 89.99) 
+        {
+            notaLetraMarcos = 'B';
+        } else if (mediaNotasMarcos >= 70 && (float)mediaNotasMarcos <= 79.99) 
+        {
+            notaLetraMarcos = 'C';
+        } else if (mediaNotasMarcos >= 60 && (float)mediaNotasMarcos <= 69.99) 
+        {
+            notaLetraMarcos = 'D';
+        } else if (mediaNotasMarcos >= 50 && (float)mediaNotasMarcos <= 59.99) 
+        {
+            notaLetraMarcos = 'E';
+        } else
+        {
+            notaLetraMarcos = 'F';
+        }
+
+        // Decidindo qual a letra referente a nota obtida de Ana
+
+        if(mediaNotasAna >= 90 && mediaNotasAna <= 100)
+        {
+            notaLetraAna = 'A';
+        } else if (mediaNotasAna >= 80 && (float)mediaNotasAna <= 89.99) 
+        {
+            notaLetraAna = 'B';
+        } else if (mediaNotasAna >= 70 && (float)mediaNotasAna <= 79.99) 
+        {
+            notaLetraAna = 'C';
+        } else if (mediaNotasAna >= 60 && (float)mediaNotasAna <= 69.99) 
+        {
+            notaLetraAna = 'D';
+        } else if (mediaNotasAna >= 50 && (float)mediaNotasAna <= 59.99) 
+        {
+            notaLetraAna = 'E';
+        } else
+        {
+            notaLetraAna = 'F';
+        }
+
+        // Decidindo qual a letra referente a nota obtida dJoão
+
+        if(mediaNotasJoao >= 90 && mediaNotasJoao <= 100)
+        {
+            notaLetraJoao = 'A';
+        } else if (mediaNotasJoao >= 80 && (float)mediaNotasJoao <= 89.99) 
+        {
+            notaLetraJoao = 'B';
+        } else if (mediaNotasJoao >= 70 && (float)mediaNotasJoao <= 79.99) 
+        {
+            notaLetraJoao = 'C';
+        } else if (mediaNotasJoao >= 60 && (float)mediaNotasJoao <= 69.99) 
+        {
+            notaLetraJoao = 'D';
+        } else if (mediaNotasJoao >= 50 && (float)mediaNotasJoao <= 59.99) 
+        {
+            notaLetraJoao = 'E';
+        } else
+        {
+            notaLetraJoao = 'F';
+        }
+
+        // Decidindo qual a letra referente a nota obtida de Pedro
+
+        if(mediaNotasPedro >= 90 && mediaNotasPedro <= 100)
+        {
+            notaLetraPedro = 'A';
+        } else if (mediaNotasPedro >= 80 && (float)mediaNotasPedro <= 89.99) 
+        {
+            notaLetraPedro = 'B';
+        } else if (mediaNotasPedro >= 70 && (float)mediaNotasPedro <= 79.99) 
+        {
+            notaLetraPedro = 'C';
+        } else if (mediaNotasPedro >= 60 && (float)mediaNotasPedro <= 69.99) 
+        {
+            notaLetraPedro = 'D';
+        } else if (mediaNotasPedro >= 50 && (float)mediaNotasPedro <= 59.99) 
+        {
+            notaLetraPedro = 'E';
+        } else
+        {
+            notaLetraPedro = 'F';
+        }
+
         // Exibindo o resultado na tela
 
         Console.WriteLine("\nAlunos\t\tNotas\n");
-        Console.WriteLine($"Marcos:\t\t{mediaNotasMarcos} \tB");
-        Console.WriteLine($"Ana:\t\t{mediaNotasAna} \tA");
-        Console.WriteLine($"João:\t\t{mediaNotasJoao} \tA");
-        Console.WriteLine($"Pedro\t\t{mediaNotasPedro} \tB\n");
+        Console.WriteLine($"Marcos:\t\t{mediaNotasMarcos} \t{notaLetraMarcos}");
+        Console.WriteLine($"Ana:\t\t{mediaNotasAna} \t{notaLetraAna}");
+        Console.WriteLine($"João:\t\t{mediaNotasJoao} \t{notaLetraJoao}");
+        Console.WriteLine($"Pedro\t\t{mediaNotasPedro} \t{notaLetraPedro}\n");
     }
 }
