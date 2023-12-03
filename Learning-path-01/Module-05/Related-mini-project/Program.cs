@@ -7,46 +7,45 @@ internal class Program
 
         // Notas de cada aluno
 
-        int marcos1 = 90, 
-            marcos2 = 100, 
-            marcos3 = 70, 
-            marcos4 = 60;
+        int marcos1 = 90; 
+        int marcos2 = 100; 
+        int marcos3 = 70; 
+        int marcos4 = 60;
 
-        int ana1 = 100, 
-            ana2 = 85, 
-            ana3 = 80, 
-            ana4 = 95;
+        int ana1 = 100; 
+        int ana2 = 85; 
+        int ana3 = 80; 
+        int ana4 = 95;
 
-        int joao1 = 50, 
-            joao2 = 65, 
-            joao3 = 60, 
-            joao4 = 70;
+        int joao1 = 50; 
+        int joao2 = 65; 
+        int joao3 = 60; 
+        int joao4 = 70;
 
-        int pedro1 = 50, 
-            pedro2 = 40, 
-            pedro3 = 20, 
-            pedro4 = 30;
-
+        int pedro1 = 50; 
+        int pedro2 = 40; 
+        int pedro3 = 20; 
+        int pedro4 = 30; 
         // Soma de todas as notas de cada aluno
 
-        int marcos = marcos1 + marcos2 + marcos3 + marcos4,
-            ana = ana1 + ana2 + ana3 + ana4,
-            joao = joao1 + joao2 + joao3 + joao4,
-            pedro = pedro1 + pedro2 + pedro3 + pedro4;
+        int marcos = marcos1 + marcos2 + marcos3 + marcos4;
+        int ana = ana1 + ana2 + ana3 + ana4;
+        int joao = joao1 + joao2 + joao3 + joao4;
+        int pedro = pedro1 + pedro2 + pedro3 + pedro4;
 
         // Divisão da soma das notas de cada aluno gerando a média
 
-        decimal mediaNotasMarcos = (decimal)marcos / mediaNotas,
-                mediaNotasAna = (decimal)ana / mediaNotas,
-                mediaNotasJoao = (decimal)joao / mediaNotas,
-                mediaNotasPedro = (decimal)pedro / mediaNotas;
+        decimal mediaNotasMarcos = (decimal)marcos / mediaNotas;
+        decimal mediaNotasAna = (decimal)ana / mediaNotas;
+        decimal mediaNotasJoao = (decimal)joao / mediaNotas;
+        decimal mediaNotasPedro = (decimal)pedro / mediaNotas;
 
         // Inicializando as variáveis letras das notas
 
-        char notaLetraMarcos,
-             notaLetraAna,
-             notaLetraJoao,
-             notaLetraPedro;
+        char notaLetraMarcos;
+        char notaLetraAna;
+        char notaLetraJoao;
+        char notaLetraPedro;
 
         // Decidindo qual a letra referente a nota obtida de Marcos
 
