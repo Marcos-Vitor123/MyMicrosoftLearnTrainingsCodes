@@ -4,11 +4,11 @@
 
 ## Introduction
 
-This repository is exclusive to the training **learning paths** <a href="https://learn.microsoft.com/pt-br/training/">***Microsoft Learn***</a> in C# and dotNet.
+This repository is exclusive to the training **learning paths** <a href="https://learn.microsoft.com/pt-br/training/">***Microsoft Learn***</a> in C#.
 
 ## objective
 
-It is with great pleasure that I follow these itineraries, in order to acquire the necessary knowledge to develop applications with **C#** and **.NET**.
+It is with great pleasure that I follow these itineraries, in order to acquire the necessary knowledge to develop applications with **C#**.
 At the moment, what catches my attention the most is the development of desktop applications. From user interaction with the graphical interface to the methods used in C# to solve problems. I think that's incredible.
 
 ## Organization
