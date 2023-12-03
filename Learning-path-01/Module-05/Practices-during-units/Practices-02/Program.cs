@@ -43,5 +43,6 @@
         Console.WriteLine("Nicolas: " + nicolasScore);
         Console.WriteLine("Zahirah: " + zahirahScore);
         Console.WriteLine("Jeong: " + jeongScore);
+        
     }
 }
