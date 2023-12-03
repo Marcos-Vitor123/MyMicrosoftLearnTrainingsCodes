@@ -1,4 +1,4 @@
-# My Microsoft Learn trainings
+# My Microsoft Learn trainings - CSharp
 
 <img alt="logo C# e .NET" src="img\microsoft_learn.png"/>
 
@@ -28,3 +28,4 @@ At the moment, what catches my attention the most is the development of desktop 
     - #### Module 04 - [Perform basic operations on numbers in C#](./Learning-path-01/Module-04/)
     - #### Module 05 - [Guided project – Calculate and print student grades](./Learning-path-01/Module-05/)
     - #### Module 06 - [Guided Project – Calculate Final GPA](./Learning-path-01/Module-06/)
+
