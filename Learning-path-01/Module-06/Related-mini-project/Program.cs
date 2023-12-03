@@ -45,7 +45,11 @@
         totalPontosNotas += horasCreditoGeografia * disciplina4Pontos;
         totalPontosNotas += horasCreditoHistoria * disciplina5Pontos;            
 
-        decimal GPA = (decimal)totalHorasCreditos / totalPontosNotas;
+        decimal mediaPontos = (decimal)totalHorasCreditos / totalPontosNotas;
+
+        int digitoEsquerda = (int) mediaPontos;
+        int digitoDireita1 = (int) (mediaPontos * 10) % 10;
+        int digitoDireita2 = (int) (mediaPontos * 100) % 10;
 
         Console.WriteLine($"\nEstudante: {estudante1}\n");
         Console.WriteLine("Disciplinas\t\tNotas\tCrédito em Horas\n");
@@ -55,6 +59,6 @@
         Console.WriteLine($"{disciplina4Nome}\t\t{disciplina4Pontos}\t{horasCreditoGeografia}");
         Console.WriteLine($"{disciplina5Nome}\t\t{disciplina5Pontos}\t{horasCreditoHistoria}\n");
 
-        Console.WriteLine("Nota Final GPA: " + GPA + "\n");
+        Console.WriteLine($"\nNota Média Final: {digitoEsquerda}.{digitoDireita1}{digitoDireita2}\n");
     }
 }
