@@ -26,4 +26,5 @@
 - Uma única classe pode ter **Métodos de Instâncias** e **Métodos Estáticos**
 - **Objeto** é uma **Instância** de uma **classe**
 - **Operador** `new` usado para criá-la
+- > **IMPORTANTE!** Alguns **Métodos** exigem que seja criada uma **Instância** de uma **classe** enqunato outros não
 
