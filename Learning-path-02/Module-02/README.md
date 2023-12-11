@@ -7,6 +7,7 @@
 - `.` ***Operador*** de acesso de membro
 - `()` ***Operador*** de chamada do método
 - ***Argumentos*** são passados dentro dos parênteses do ***operador*** de chamada do método
+- Estrutura `nomeClasse.NomeMetodo()`
 
     ```cs
         Console.WriteLine("argumentos aqui");
@@ -26,5 +27,24 @@
 - Uma única classe pode ter **Métodos de Instâncias** e **Métodos Estáticos**
 - **Objeto** é uma **Instância** de uma **classe**
 - **Operador** `new` usado para criá-la
-- > **IMPORTANTE!** Alguns **Métodos** exigem que seja criada uma **Instância** de uma **classe** enqunato outros não
+- Ao criar uma **Instância** é preciso acessar o **Método** no **Objeto**
+- > **IMPORTANTE!** Alguns **Métodos** exigem que seja criada uma **Instância** de uma **classe** enqunato outros não.
+- > **Simplificando!** 
+    ```cs
+    using System;
+
+    namespace Practices
+    {
+        internal class Program
+        {
+            private static void Main(string[] args)
+            {
+                Random dice = new(); // dice é o "Objeto" criado do tipo "Random" criado pelo operador "new"
+                int result = dice.Next(); // "result" recebe o endereço de memória armazenado na linha anterior no "Objeto" "dice" e alterar ou adciona valores através do "Método" "Next"
+                Console.WriteLine(result);
+            }
+        }
+    }
+
+    ```
 
