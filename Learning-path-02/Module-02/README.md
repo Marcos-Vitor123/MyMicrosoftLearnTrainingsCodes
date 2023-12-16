@@ -56,4 +56,9 @@
 - **Argumetos** Valor transmitido quando o métdo é chamado
 - **Assinatura de método** Define a quantidade e o tipo de dados de cada **parâmetro**
 ## Métodos sobrecarregados
+- Permite métodos com ou sem parâmetros
+## Maneiras de encontrar infprmações sobre **classes** e **métodos**
+- Pesquise por **C# Random.Next()** por exemplo
+    - Sua pesquisa deve incluir o nome da classe e o nome do método
+- [Documentação Oficial da biblioteca de classes do .NET](https://learn.microsoft.com) ou [https://learn.microsoft.com](https://learn.microsoft.com)
 
