@@ -28,3 +28,8 @@ At the moment what catches my attention the most is the development of desktop a
     - #### Module 04 - [Perform basic operations with numbers in C#](./Learning-path-01/Module-04/)
     - #### Module 05 - [Guided project – Calculate and print student grades](./Learning-path-01/Module-05/)
     - #### Module 06 - [Guided Project – Calculate Final GPA](./Learning-path-01/Module-06/)
+ 
+- ### Learning paths 02 - [Call methods from the .NET Class Library using C#](./Learning-path-02/)
+    - #### Module 01 - [Install and configure Visual Studio Code](./Learning-path-02/Module-01/)
+    - #### Module 02 - [Call methods from the .NET Class Library using C#](./Learning-path-02/Module-02/)
+
