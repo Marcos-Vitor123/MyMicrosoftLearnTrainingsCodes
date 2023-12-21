@@ -49,12 +49,12 @@
 
     ```
 ## Valores retornados
-- **Métodos nulos** Não retornan valor quando finalizados
+- **Métodos nulos** não retornan valor quando finalizados
 ## Parâmetros de entrada
 - Informação consumida pelo **método**
-- **Parâmetros** Variáveis usada no método
-- **Argumetos** Valor transmitido quando o métdo é chamado
-- **Assinatura de método** Define a quantidade e o tipo de dados de cada **parâmetro**
+- **Parâmetros** variáveis usada no método
+- **Argumetos** valor transmitido quando o método é chamado
+- **Assinatura de método** define a quantidade e o tipo de dados de cada **parâmetro**
 ## Métodos sobrecarregados
 - Permite métodos com ou sem parâmetros
 ## Maneiras de encontrar informações sobre **classes** e **métodos**
