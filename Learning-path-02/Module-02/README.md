@@ -61,3 +61,5 @@
 - Pesquise por **C# Random.Next()** por exemplo
     - Sua pesquisa deve incluir o nome da classe e o nome do método
 - [Documentação Oficial da biblioteca de classes do .NET](https://learn.microsoft.com) ou [https://learn.microsoft.com](https://learn.microsoft.com)
+
+
