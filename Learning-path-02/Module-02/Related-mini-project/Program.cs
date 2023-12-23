@@ -54,7 +54,6 @@ namespace Project
     internal class Sorteio
     {
         public int executa = 0;
-        public char grau = '0';
 
         public int metodoSorteio()
         {
