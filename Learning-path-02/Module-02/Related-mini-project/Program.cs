@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
-using Sorteio;
+using Sorteio.Models; // Refernciando o caminho da classe Sorteio
 
 namespace Project
 {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Sorteio
+namespace Sorteio.Models //Indicar referência externa
 {
     internal class Sortear
     {
