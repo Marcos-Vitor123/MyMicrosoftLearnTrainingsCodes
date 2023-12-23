@@ -6,7 +6,7 @@ namespace Practices
     {
         private static void Main(string[] args)
         {
-            MinhaClasse minhaClasse = new MinhaClasse();
+            MinhaClasse minhaClasse = new();
             
             Console.WriteLine("Método sem estado: " + minhaClasse.metodoSemEstado());
 
