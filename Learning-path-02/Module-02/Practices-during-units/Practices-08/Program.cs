@@ -8,6 +8,7 @@ namespace Practices
         {
             MinhaClasse minhaClasse = new();
             OutraClasse outraClasse = new();
+            OutraClasse teste = new();
             
             Console.WriteLine("\nMétodo sem estado: " + minhaClasse.metodoSemEstado());
 
@@ -20,6 +21,8 @@ namespace Practices
             Console.WriteLine("\nMétodo com estado two: " + outraClasse.metodoComEstadoTwo());
             Console.WriteLine("Método com estado two: " + outraClasse.metodoComEstadoTwo());
             Console.WriteLine("Método com estado two: " + outraClasse.metodoComEstadoTwo());
+
+            Console.WriteLine($"\nTeste: {teste.metodoComEstadoTwo()}");
         }
     }
 
