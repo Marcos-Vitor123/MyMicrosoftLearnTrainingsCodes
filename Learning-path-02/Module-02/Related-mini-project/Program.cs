@@ -10,7 +10,7 @@ namespace Project
         {
             Sorteio sortear = new();
 
-            int limite = 99;
+            int limite = 30;
             int contadorAbaixo0 = 1;
             int contadorAcima10 = 10;
             int numeroSorteado;
@@ -18,7 +18,7 @@ namespace Project
             do
             {
                 numeroSorteado = sortear.metodoSorteio();
-                if(numeroSorteado < 9)
+                if(numeroSorteado < 10)
                 {
                     Console.WriteLine($"0{contadorAbaixo0}° Número sorteado: 0{numeroSorteado}");
                 } else
@@ -32,7 +32,7 @@ namespace Project
             do
             {
                 numeroSorteado = sortear.metodoSorteio();
-                if(numeroSorteado < 9)
+                if(numeroSorteado < 10)
                 {
                     Console.WriteLine($"{contadorAcima10}° Número sorteado: 0{numeroSorteado}");
                 } else
