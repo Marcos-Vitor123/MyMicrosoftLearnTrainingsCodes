@@ -10,19 +10,19 @@ namespace Practices
             OutraClasse outraClasse = new();
             OutraClasse teste = new();
             
-            Console.WriteLine("\nMétodo sem estado: " + minhaClasse.metodoSemEstado());
+            Console.WriteLine("\nMétodo sem estado: " + minhaClasse.MetodoSemEstado());
 
-            Console.WriteLine("\nMétodo com estado: " + minhaClasse.metodoComEstado());
-            Console.WriteLine("Método com estado: " + minhaClasse.metodoComEstado());
-            Console.WriteLine("Método com estado: " + minhaClasse.metodoComEstado());
+            Console.WriteLine("\nMétodo com estado: " + minhaClasse.MetodoComEstado());
+            Console.WriteLine("Método com estado: " + minhaClasse.MetodoComEstado());
+            Console.WriteLine("Método com estado: " + minhaClasse.MetodoComEstado());
 
-            Console.WriteLine("\nMétodo sem estado two: " + outraClasse.metodoSemEstadoTwo());
+            Console.WriteLine("\nMétodo sem estado two: " + outraClasse.MetodoSemEstadoTwo());
 
-            Console.WriteLine("\nMétodo com estado two: " + outraClasse.metodoComEstadoTwo());
-            Console.WriteLine("Método com estado two: " + outraClasse.metodoComEstadoTwo());
-            Console.WriteLine("Método com estado two: " + outraClasse.metodoComEstadoTwo());
+            Console.WriteLine("\nMétodo com estado two: " + outraClasse.MetodoComEstadoTwo());
+            Console.WriteLine("Método com estado two: " + outraClasse.MetodoComEstadoTwo());
+            Console.WriteLine("Método com estado two: " + outraClasse.MetodoComEstadoTwo());
 
-            Console.WriteLine($"\nTeste: {teste.metodoComEstadoTwo()}");
+            Console.WriteLine($"\nTeste: {teste.MetodoComEstadoTwo()}");
         }
     }
 
@@ -30,12 +30,12 @@ namespace Practices
     {
         private int contador = 0;
 
-        public int metodoSemEstado()
+        public int MetodoSemEstado()
         {
             return 1;
         }
 
-        public int metodoComEstado()
+        public int MetodoComEstado()
         {
             contador++;
             return contador;
@@ -46,12 +46,12 @@ namespace Practices
     {
         public int numeros = 0;
 
-        public int metodoSemEstadoTwo()
+        public int MetodoSemEstadoTwo()
         {
             return numeros;
         }
 
-        public int metodoComEstadoTwo()
+        public int MetodoComEstadoTwo()
         {
             Random sorteio = new();
             return numeros = sorteio.Next(1, 101);
