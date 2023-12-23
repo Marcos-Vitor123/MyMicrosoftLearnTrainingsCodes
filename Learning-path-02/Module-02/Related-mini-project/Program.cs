@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
+using Sorteio;
 
 namespace Project
 {
@@ -8,7 +9,7 @@ namespace Project
     {
         private static void Main(string[] args)
         {
-            Sorteio sortear = new();
+            Sortear sortear = new();
            
             Console.WriteLine("\nO número máximo de índices é até 99");
 
@@ -29,7 +30,7 @@ namespace Project
 
             do
             {
-                numeroSorteado = sortear.MetodoSorteio();
+                numeroSorteado = sortear.MetodoSortear();
                 if(numeroSorteado < 10)
                 {
                     Console.WriteLine($"0{contadorAbaixo0}° Número sorteado: 00{numeroSorteado}");
@@ -46,7 +47,7 @@ namespace Project
 
             do
             {
-                numeroSorteado = sortear.MetodoSorteio();
+                numeroSorteado = sortear.MetodoSortear();
                 if(numeroSorteado < 10)
                 {
                     Console.WriteLine($"{contadorAcima10}° Número sorteado: 00{numeroSorteado}");
@@ -60,21 +61,6 @@ namespace Project
                 contadorAcima10++;
             }
             while(contadorAcima10 <= limite);
-        }
-    }
-    internal class Sorteio
-    {       
-        public int executa = 0;
-        public int iniciar;
-        public int finalizar;
-        public int MetodoSorteio()
-        {
-
-            Random sorteio = new();
-
-            executa = sorteio.Next(iniciar, finalizar);
-
-            return executa;
         }
     }
 }
