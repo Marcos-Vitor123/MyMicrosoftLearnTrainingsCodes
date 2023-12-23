@@ -7,12 +7,19 @@ namespace Practices
         private static void Main(string[] args)
         {
             MinhaClasse minhaClasse = new();
+            OutraClasse outraClasse = new();
             
-            Console.WriteLine("Método sem estado: " + minhaClasse.metodoSemEstado());
+            Console.WriteLine("\nMétodo sem estado: " + minhaClasse.metodoSemEstado());
 
-            Console.WriteLine("Método Com estado: " + minhaClasse.metodoComEstado());
-            Console.WriteLine("Método Com estado: " + minhaClasse.metodoComEstado());
-            Console.WriteLine("Método Com estado: " + minhaClasse.metodoComEstado());
+            Console.WriteLine("\nMétodo com estado: " + minhaClasse.metodoComEstado());
+            Console.WriteLine("Método com estado: " + minhaClasse.metodoComEstado());
+            Console.WriteLine("Método com estado: " + minhaClasse.metodoComEstado());
+
+            Console.WriteLine("\nMétodo sem estado two: " + outraClasse.metodoSemEstadoTwo());
+
+            Console.WriteLine("\nMétodo com estado two: " + outraClasse.metodoComEstadoTwo());
+            Console.WriteLine("Método com estado two: " + outraClasse.metodoComEstadoTwo());
+            Console.WriteLine("Método com estado two: " + outraClasse.metodoComEstadoTwo());
         }
     }
 
@@ -29,6 +36,22 @@ namespace Practices
         {
             contador++;
             return contador;
+        }
+    }
+
+    internal class OutraClasse
+    {
+        public int numeros = 0;
+
+        public int metodoSemEstadoTwo()
+        {
+            return numeros;
+        }
+
+        public int metodoComEstadoTwo()
+        {
+            Random sorteio = new();
+            return numeros = sorteio.Next(1, 101);
         }
     }  
 }
