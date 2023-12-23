@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Project
 {
@@ -6,14 +8,55 @@ namespace Project
     {
         private static void Main(string[] args)
         {
-            Random dados = new Random();
-            int sortearOne = dados.Next(0, 100);
-            int sortearTwo = dados.Next(0, 100);
-            int sortearThree = dados.Next(0, 100);
-            int sortearFour = dados.Next(0, 100);
-            int sortearFive = dados.Next(0, 100);
-            
-            Console.WriteLine($"\nNúmeros sorteados: {sortearOne}, {sortearTwo}, {sortearThree}, {sortearFour}, {sortearFive}\n");
+            Sorteio sortear = new();
+
+            int limite = 99;
+            int contadorAbaixo0 = 1;
+            int contadorAcima10 = 10;
+            int numeroSorteado;
+
+            do
+            {
+                numeroSorteado = sortear.metodoSorteio();
+                if(numeroSorteado < 9)
+                {
+                    Console.WriteLine($"0{contadorAbaixo0}° Número sorteado: 0{numeroSorteado}");
+                } else
+                {
+                    Console.WriteLine($"0{contadorAbaixo0}° Número sorteado: {numeroSorteado}");
+                }
+                contadorAbaixo0++;
+            }
+            while(contadorAbaixo0 <= 9);
+
+            do
+            {
+                numeroSorteado = sortear.metodoSorteio();
+                if(numeroSorteado < 9)
+                {
+                    Console.WriteLine($"{contadorAcima10}° Número sorteado: 0{numeroSorteado}");
+                } else
+                {
+                    Console.WriteLine($"{contadorAcima10}° Número sorteado: {numeroSorteado}");
+                }
+                contadorAcima10++;
+            }
+            while(contadorAcima10 <= limite);
         }
-    } 
+    }
+
+    internal class Sorteio
+    {
+        public int executa = 0;
+        public char grau = '0';
+
+        public int metodoSorteio()
+        {
+            Random sorteio = new();
+            executa = sorteio.Next(0, 100);
+
+            return executa;
+        }
+    }
+
 }
