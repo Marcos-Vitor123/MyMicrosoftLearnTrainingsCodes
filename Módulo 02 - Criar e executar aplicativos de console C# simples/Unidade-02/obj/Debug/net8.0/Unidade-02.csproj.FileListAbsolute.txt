@@ -1,0 +1,15 @@
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\bin\Debug\net8.0\Unidade-02.exe
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\bin\Debug\net8.0\Unidade-02.deps.json
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\bin\Debug\net8.0\Unidade-02.runtimeconfig.json
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\bin\Debug\net8.0\Unidade-02.dll
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\bin\Debug\net8.0\Unidade-02.pdb
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.AssemblyInfoInputs.cache
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.AssemblyInfo.cs
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.csproj.CoreCompileInputs.cache
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.sourcelink.json
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.dll
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\refint\Unidade-02.dll
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.pdb
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\Unidade-02.genruntimeconfig.cache
+E:\Programming\Codes\GitHub\my-microsoft-learn-courses-codes\Módulo 02 - Criar e executar aplicativos de console C# simples\Unidade-02\obj\Debug\net8.0\ref\Unidade-02.dll
