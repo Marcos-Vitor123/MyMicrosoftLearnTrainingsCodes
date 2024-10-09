@@ -21,24 +21,34 @@ public class Program
                 Console.WriteLine("You rolled triples! +6 bonus to total!");
                 total += 6;
             }
-            
+
             else
             {
                 Console.WriteLine("You rolled doubles! +2 bonus to total!");
                 total += 2;
             }
+
+            Console.WriteLine($"Your total including the bonus: {total}");
         }
 
-        
-
-        if (total >= 15)
+        if (total >= 16)
         {
-            Console.WriteLine("You Win!");
+            Console.WriteLine("You win a new car!");
+        }
+
+        else if (total >= 10)
+        {
+            Console.WriteLine("You win a new laptop!");
+        }
+
+        else if (total == 7)
+        {
+            Console.WriteLine("You win a trip for two!");
         }
 
         else
         {
-            Console.WriteLine("Sorry, you lose.");
+            Console.WriteLine("You win a kitten!");
         }
     }
 }
