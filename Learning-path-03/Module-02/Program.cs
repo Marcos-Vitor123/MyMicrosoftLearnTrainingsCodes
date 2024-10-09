@@ -13,5 +13,15 @@ public class Program
         int total = roll1 + roll2 + roll3;
 
         Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+
+        if (total > 14)
+        {
+            Console.WriteLine("You Win!");
+        }
+
+        if (total < 15)
+        {
+            Console.WriteLine("Sorry, you lose.");
+        }
     }
 }
