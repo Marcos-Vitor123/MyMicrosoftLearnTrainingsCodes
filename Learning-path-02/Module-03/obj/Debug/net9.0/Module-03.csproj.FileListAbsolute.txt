@@ -1,0 +1,15 @@
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\bin\Debug\net9.0\Module-03.exe
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\bin\Debug\net9.0\Module-03.deps.json
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\bin\Debug\net9.0\Module-03.runtimeconfig.json
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\bin\Debug\net9.0\Module-03.dll
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\bin\Debug\net9.0\Module-03.pdb
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.AssemblyInfoInputs.cache
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.AssemblyInfo.cs
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.csproj.CoreCompileInputs.cache
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.sourcelink.json
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.dll
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\refint\Module-03.dll
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.pdb
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\Module-03.genruntimeconfig.cache
+D:\GitHub\MyMicrosoftLearnTrainingsCodes\Learning-path-02\Module-03\obj\Debug\net9.0\ref\Module-03.dll
